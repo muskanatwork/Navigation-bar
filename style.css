@@ -1,0 +1,45 @@
+.navigation {
+    background-color: darkblue;
+    height: 70px;
+}
+h1{
+ text-align: center;   
+}
+
+.navList {
+    display: inline-flex;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.navList li {
+    list-style: none;
+}
+
+.navList li a {
+    text-decoration: none;
+}
+
+a {
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+}
+
+.hr {
+    width: 30px;
+    float: right;
+    display: none;
+}
+
+@media only screen and (max-width: 801px) {
+    .hr {
+        display: block;
+    }
+
+    .navList {
+        display: none;
+    }
+}
